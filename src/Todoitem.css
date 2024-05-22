@@ -1,0 +1,39 @@
+.todo-text {
+    flex: 1;
+    cursor: pointer;
+  }
+  
+  .edit-input {
+    flex: 1;
+    padding: 5px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .edit-button,
+  .remove-button,
+  .update-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
+  .edit-button:hover,
+  .remove-button:hover,
+  .update-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .remove-button {
+    background-color: #dc3545;
+  }
+  
+  .remove-button:hover {
+    background-color: #c82333;
+  }
+  
